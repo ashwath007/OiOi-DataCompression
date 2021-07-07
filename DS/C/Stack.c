@@ -44,6 +44,14 @@ void main(){
 }
 
 
+void delete(){
+    for(int y=--;y<=TOP;y++){
+        array[y] = 0;
+
+    }
+    TOP==-1;
+}
+
 void push(){
     int ele;
     printf("enter the element \n");
