@@ -73,5 +73,10 @@ void print(){
 
 
 void peek(){
-
+    int ele;
+    printf("Enter the element to search : ");
+    scanf("%d",&ele);
+    for(int u=FRONT;u<=BACK;u++){
+        if(queue[u] == ele) printf("The element is : %d at position %d ",queue[u],u);
+    }
 }
